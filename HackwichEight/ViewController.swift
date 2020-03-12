@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         targetValue = Int.random(in: 0...100)
         
         startNewRound()
+        
+        self.view.backgroundColor = UIColor.systemTeal
     }
     
     @IBAction func guessButtonPressed(_ sender: Any)
